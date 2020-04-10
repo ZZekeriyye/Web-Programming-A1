@@ -1,0 +1,40 @@
+.window {
+    width: 96vw;
+    height: 102vh;
+    min-height: 86vh;
+    background-color: #808000;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.photo {
+    height: 55%;
+    background: linear-gradient(138deg, rgba(242,211,190,0.8) 1%, rgba(242,211,190,0.8) 50%, rgba(40,129,191,0.8) 98%), url("../img/bg.jpg") center;
+    background-size: cover;
+    clip-path: polygon(50% 100%, 0% 75%, 0% 0%, 100% 0%, 100% 75%);
+}
+
+.content {
+    text-align: center;
+}
+
+.content-head {
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 90px 0;
+    background: -webkit-linear-gradient(138deg, rgba(243,227,196,1) 0%, rgba(243,227,196,1) 50%, rgba(41,139,197,1) 50%, rgba(41,139,197,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.content-text {
+    color: #008080;
+    font-size: 42px;
+}
+
+.second-text {
+    color: #FF00FF;
+}
